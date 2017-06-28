@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/FichaCliente">
+    <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" maxActive="-1" maxIdle="-1" maxWait="1000000" name="oracle" password="Cisco12345" type="javax.sql.DataSource" url="jdbc:sqlserver://10.165.70.230; databaseName=Ficha" username="sa"/>
+    <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" maxActive="-1" maxIdle="-1" maxWait="1000000" name="ficha"    password="Cisco12345" type="javax.sql.DataSource" url="jdbc:sqlserver://10.165.70.230 ; databaseName=Ficha" username="sa"/>
+    <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" maxActive="-1" maxIdle="-1" maxWait="1000000" name="sqlficha" password="cisco" type="javax.sql.DataSource" url="jdbc:sqlserver://10.165.70.252 ; databaseName= " username="sql-admin"/>
+    <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" maxActive="-1" maxIdle="-1" maxWait="1000000" name="sqlGMDrascal" password="Cisco12345" type="javax.sql.DataSource" url="jdbc:sqlserver://10.165.70.230; databaseName= " username="sa"/>
+    <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" maxActive="-1" maxIdle="-1" maxWait="1000000" name="sqlrascal2" password="cisco" type="javax.sql.DataSource" url="jdbc:sqlserver://10.165.136.143; databaseName= rmc_awdb" username="sql-admin"/>
+    <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" maxActive="-1" maxIdle="-1" maxWait="1000000" name="ippcsql" password="cisco" type="javax.sql.DataSource"   url="jdbc:sqlserver://10.165.136.141; databaseName= " username="sql-admin"/>
+    <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" maxActive="-1" maxIdle="-1" maxWait="1000000" name="AQPlima" password="cisco" type="javax.sql.DataSource" url="jdbc:sqlserver://10.165.144.181; databaseName= " username="sql-admin"/>
+
+</Context>
+
